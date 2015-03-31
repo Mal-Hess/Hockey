@@ -1,0 +1,6 @@
+Read Me:
+
+This R program web scraps a website for regular season hcokey results to analyze the effect of rest days between games.  There is a R file with the pure code, an Rmd file, and a web-archive document describing the study and the results.
+
+The program is designed to work on any computer but will require internet access for web scraping.    
+
