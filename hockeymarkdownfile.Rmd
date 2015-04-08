@@ -1,20 +1,23 @@
 ---
 title: "NHL Days off comparison"
 author: "Malcolm Hess"
-date: "March 11, 2015"
-output: pdf_document
+date: "March 16, 2015"
+output: html_document
 ---
 
-Information about the student and the project.
 
 Contributed by Malcolm Hess
-Malcolm attended the pioneer class of the  NYCdata Science Academy bootcamp with instructor Vivian Zhang.
+
 This project is based on the win rate for NHL teams based on days between games.
 
 
-##About the project.
+#Links
+The code and files for this project can be found here: https://github.com/Mal-Hess/Hockey 
 
-#Background
+If you enjoyed this or would like to see more of my work feel free to check out my github account for more projects. 
+https://github.com/Mal-Hess/
+
+##Background
 
     In the NHL not all schedules are created equal.  Some teams will have more back-to-back games than others. A team with more back-to-back games is thought to have the harder schedule.  The expectation is that having to play two games in a row puts added strain on a team and would therefore reduce the likelihood of their victory.  On top of the physical strain a team won't have the opportunity to prepare for a specific opponent. 
 
@@ -137,4 +140,4 @@ chisq.test(table2)
 
 #Future Work
 
-I will go on to compare the individual chance of a team winning dependant on if for that specific game the opposing team has had more rest or not. This extra step should clear up any noise created when teams with the same amount of days off play against each other.  
+I will go on to compare the individual chance of a team winning dependant on if for that specific game the one team has had more rest. This extra step should clear up any noise created when teams with the same amount of days off play against each other.  
